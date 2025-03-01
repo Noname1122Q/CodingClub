@@ -127,3 +127,29 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* custome styles */
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #ffe275;
+  border-radius: 10px;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: #d4374c;
+  border-radius: 10px;
+  border: 2px solid #ffe275;
+}
+
+/* Scrollbar Thumb on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #d41f38;
+}
