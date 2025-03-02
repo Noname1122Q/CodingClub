@@ -28,10 +28,9 @@ const LandingPage = () => {
         <h2 className=" text-xl md:text-2xl lg:text-3xl font-bold text-center text-[#CF2027]">
           Gallery
         </h2>
-        {/* <div className="flex flex-col items-center justify-around gap-4 mt-6">
+        <div className="flex items-center justify-center">
           <Gallery />
-        </div> */}
-        <Gallery />
+        </div>
       </section>
 
       {/* Upcoming Events */}
