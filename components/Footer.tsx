@@ -10,7 +10,7 @@ firebrick #b22222
 
 const Footer = () => {
   return (
-    <footer className="bg-[#b22222] text-[#FFE275] py-4 md:py-8 px-3 md:px-6 mt-8">
+    <footer className="bg-[#b22222] text-[#FFE275] py-4 md:py-8 px-3 md:px-6 mt-8 bottom-0">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="text-center md:text-left">
           <h2 className="text-lg md:text-xl lg:text-2xl font-semibold">

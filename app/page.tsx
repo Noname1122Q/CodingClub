@@ -18,7 +18,7 @@ const LandingPage = () => {
           enthusiasts.
         </p>
         <Link
-          href="#events"
+          href="/events"
           className="mt-2 md:mt-4 lg:mt-6 inline-block hover:bg-[#b42538] bg-[#b33445] text-white px-6 py-3 rounded-lg shadow-lg max-w-xl transition-all duration-300 "
         >
           View Upcoming Events
