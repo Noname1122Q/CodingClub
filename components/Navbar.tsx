@@ -5,8 +5,10 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
+  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -44,6 +46,7 @@ const Navbar = () => {
           </div>
           <div className="hidden md:flex">
             <Button
+              onClick={() => router.push("/contact")}
               variant={"outline"}
               className="bg-transparent hover:cursor-pointer hover:bg-transparent border-black transition-all duration-200 hover:scale-110"
             >

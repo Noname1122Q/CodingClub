@@ -41,7 +41,7 @@ const RecruitmentForm = () => {
       </motion.div>
       {/* FORM DIV */}
       <div className="relative md:w-1/2">
-        <div className="absolute -top-4 -left-4 w-full h-full bg-[#cf4449] rotate-3 rounded-lg"></div>
+        <div className="absolute -top-4 -left-4 w-full h-full bg-[#cf4449] rotate-4 rounded-lg"></div>
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}

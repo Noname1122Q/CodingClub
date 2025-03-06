@@ -3,7 +3,6 @@
 import Gallery from "@/components/homepage/Gallery";
 import RecruitmentForm from "@/components/homepage/RecruitmentForm";
 import UpcomingEvents from "@/components/homepage/UpcomingEvents";
-import Image from "next/image";
 import Link from "next/link";
 
 const LandingPage = () => {
