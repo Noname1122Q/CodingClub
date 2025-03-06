@@ -1,15 +1,12 @@
 "use client";
-
-import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
+import MenuBar from "./MenuBar";
 import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const router = useRouter();
-  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="bg-transparent shadow-md w-full left-0 z-50">
@@ -53,12 +50,7 @@ const Navbar = () => {
               Join Us
             </Button>
           </div>
-          <button
-            className="md:hidden text-gray-700 focus:outline-none"
-            onClick={() => setIsOpen(!isOpen)}
-          >
-            {isOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
+          <MenuBar />
         </div>
       </div>
     </nav>

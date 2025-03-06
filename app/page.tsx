@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className=" text-gray-900 -mt-20 overflow-hidden">
       <section className="flex flex-col justify-center left-0 text-center items-center py-10 md:py-14 lg:py-18 px-0 md:px-4 bg-[url('https://images.shiksha.com/mediadata/images/1579757643phpEK1frD.jpeg')]  bg-no-repeat bg-cover h-screen">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-[#CF2027] text-wrap">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#CF2027] text-wrap">
           Welcome to BITS Pilani Coding Club
         </h1>
         <p className="text-lg lg:text-xl mt-4 text-black text-wrap">
