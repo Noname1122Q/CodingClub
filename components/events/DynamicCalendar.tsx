@@ -76,7 +76,7 @@ const Calendar = () => {
                   <motion.div
                     className={`relative p-3 rounded-md  ${
                       event
-                        ? "bg-[#2B2B88] text-[#FFE275] font-bold cursor-pointer hover:scale-105 transition-all duration-200"
+                        ? "bg-[#2B2B88] text-[#FFE275] font-bold hover:scale-105 transition-all duration-200"
                         : "bg-white text-[#2B2B88]"
                     }`}
                   >
