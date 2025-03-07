@@ -1,13 +1,10 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const jbm = JetBrains_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const ibm = IBM_Plex_Mono({ variable: "--font-geist-mono", weight: "300" });
 
 export const metadata: Metadata = {
   title: "BSc Coding Club",
@@ -21,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jbm.className}  antialiased bg-[#FFE275]`}>
+      <body className={`${ibm.className}  antialiased bg-[#FFE275]`}>
         <Navbar />
         {children}
         <Footer />

@@ -101,7 +101,7 @@ const EventsDialog = ({ event }: Props) => {
           </CardContent>
         </Card>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px] md:max-w-[550px] lg:max-w-[725px] max-h-full overflow-y-scroll my-auto bg-[#d8b163] ">
+      <DialogContent className="sm:max-w-[425px] md:max-w-[550px] lg:max-w-[725px] max-h-full overflow-y-scroll my-auto bg-[#e6bf73] ">
         <DialogHeader>
           <DialogTitle>{event.title}</DialogTitle>
           <DialogDescription asChild>
