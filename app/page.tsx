@@ -8,14 +8,16 @@ import Link from "next/link";
 const LandingPage = () => {
   return (
     <div className=" text-gray-900 -mt-20 overflow-hidden">
-      <section className="flex flex-col justify-center left-0 text-center items-center py-10 md:py-14 lg:py-18 px-0 md:px-4 bg-[url('https://images.shiksha.com/mediadata/images/1579757643phpEK1frD.jpeg')]  bg-no-repeat bg-cover h-screen">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#CF2027] text-wrap">
-          Welcome to BITS Pilani Coding Club
-        </h1>
-        <p className="text-lg lg:text-xl mt-4 text-black text-wrap">
-          A community of passionate developers, problem solvers, and tech
-          enthusiasts.
-        </p>
+      <section className="flex flex-col text-center justify-evenly items-center md:justify-center md:items-center md:-mt-0 py-10 md:py-14 lg:py-18 px-0 md:px-4 bg-[url('https://images.shiksha.com/mediadata/images/1579757643phpEK1frD.jpeg')]  bg-no-repeat bg-cover h-screen">
+        <div>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#CF2027] text-wrap">
+            Welcome to BITS Pilani Coding Club
+          </h1>
+          <p className="text-lg lg:text-xl mt-4 text-black text-wrap">
+            A community of passionate developers, problem solvers, and tech
+            enthusiasts.
+          </p>
+        </div>
         <Link
           href="/events"
           className="mt-2 md:mt-4 lg:mt-6 inline-block hover:bg-[#b42538] bg-[#b33445] text-white px-6 py-3 rounded-lg shadow-lg max-w-xl transition-all duration-300 "
@@ -23,6 +25,7 @@ const LandingPage = () => {
           View Upcoming Events
         </Link>
       </section>
+
       {/* GALLERY */}
       <section className="py-6 md:py-8 lg:py-12 px-4">
         <h2 className=" text-xl md:text-2xl lg:text-3xl font-bold text-center text-[#CF2027]">

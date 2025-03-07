@@ -4,7 +4,11 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const ibm = IBM_Plex_Mono({ variable: "--font-geist-mono", weight: "300" });
+const ibm = IBM_Plex_Mono({
+  variable: "--font-geist-mono",
+  weight: "300",
+  subsets: ["cyrillic"],
+});
 
 export const metadata: Metadata = {
   title: "BSc Coding Club",

@@ -18,25 +18,25 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-6">
             <Link
               href="/"
-              className="text-gray-800 hover:text-black transition-all duration-150"
+              className="text-gray-800 hover:text-black hover:underline underline-offset-2 transition-all duration-200"
             >
               Home
             </Link>
             <Link
               href="/events"
-              className="text-gray-800 hover:text-black transition-all duration-150"
+              className="text-gray-800 hover:text-black hover:underline underline-offset-2 transition-all duration-200"
             >
               Events
             </Link>
             <Link
               href="/faculty"
-              className="text-gray-800 hover:text-black transition-all duration-150"
+              className="text-gray-800 hover:text-black hover:underline underline-offset-2 transition-all duration-200"
             >
               Faculty
             </Link>
             <Link
               href="/contact"
-              className="text-gray-800 hover:text-black transition-all duration-150"
+              className="text-gray-800 hover:text-black hover:underline underline-offset-2 transition-all duration-200"
             >
               Contact
             </Link>
