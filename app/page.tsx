@@ -37,7 +37,7 @@ const LandingPage = () => {
       </section>
 
       {/*EVENTS */}
-      <section className="py-12 px-6 max-w-7xl mx-auto">
+      <section className="py-6 md:py-8 lg:py-12 max-w-7xl mx-auto">
         <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-center text-[#CF2027]">
           Upcoming Events
         </h2>

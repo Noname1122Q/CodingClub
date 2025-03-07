@@ -101,7 +101,7 @@ const EventsDialog = ({ event }: Props) => {
           </CardContent>
         </Card>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[425px] md:max-w-[550px] lg:max-w-[725px] max-h-full overflow-y-scroll my-auto bg-[#e6bf73] ">
+      <DialogContent className="sm:max-w-[425px] md:max-w-[550px] lg:max-w-[725px] max-h-full overflow-y-scroll my-auto bg-[#e4c588] ">
         <DialogHeader>
           <DialogTitle>{event.title}</DialogTitle>
           <DialogDescription asChild>
@@ -139,7 +139,7 @@ const EventsDialog = ({ event }: Props) => {
             <p className="text-gray-500 text-sm mt-1">
               {event.date} • {event.time} • {event.location}
             </p>
-            <p className="text-sm font-medium text-gray-600">
+            <p className="text-sm font-medium text-gray-70 font-normal0">
               {event.eventType} • {event.duration}
             </p>
           </div>
@@ -153,7 +153,7 @@ const EventsDialog = ({ event }: Props) => {
                 {event.guestSpeakers.map((speaker, index) => (
                   <div
                     key={index}
-                    className="flex items-center gap-3  px-3 py-2 rounded-lg"
+                    className="flex items-center gap-3 px-3 rounded-lg"
                   >
                     <div>
                       <p className="text-gray-700 font-medium">
@@ -181,7 +181,7 @@ const EventsDialog = ({ event }: Props) => {
               Contact Information
             </h3>
             <p className="text-gray-600 text-sm flex">
-              <Mail />
+              <Mail className="mr-2" />
               <a
                 href={`mailto:${event.contactEmail}`}
                 className="text-blue-600 hover:underline"
@@ -190,7 +190,7 @@ const EventsDialog = ({ event }: Props) => {
               </a>
             </p>
             <p className="text-gray-600 text-sm flex">
-              <Phone />{" "}
+              <Phone className="mr-2" />{" "}
               <a
                 href={`tel:${event.contactPhone}`}
                 className="text-blue-600 hover:underline"

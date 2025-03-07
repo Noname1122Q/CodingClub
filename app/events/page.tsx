@@ -5,7 +5,7 @@ import React from "react";
 const EventsPage = () => {
   return (
     <div className="flex flex-col items-center justify-center h-full space-y-4 md:space-y-6">
-      <div className="flex flex-col lg:flex-row p-4 justify-around space-x-4">
+      <div className="flex flex-col lg:flex-row p-4 justify-around space-x-4 space-y-2">
         <div className="flex flex-col text-center items-center justify-center max-w-lg">
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold text-center text-[#CF2027]">
             Our Events

@@ -36,17 +36,13 @@ const ClubContact = () => {
 
       {/* Social Media Links */}
       <div className="flex justify-center space-x-6 mt-6">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="#">
           <FaGithub className="text-[#CF2027] text-2xl hover:text-[#A01B22] transition" />
         </a>
-        <a
-          href="https://linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="#">
           <FaLinkedin className="text-[#CF2027] text-2xl hover:text-[#A01B22] transition" />
         </a>
-        <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+        <a href="#">
           <FaDiscord className="text-[#CF2027] text-2xl hover:text-[#A01B22] transition" />
         </a>
       </div>
