@@ -1,5 +1,6 @@
 "use client";
 
+import CLI from "@/components/homepage/CLI";
 import Gallery from "@/components/homepage/Gallery";
 import RecruitmentForm from "@/components/homepage/RecruitmentForm";
 import UpcomingEvents from "@/components/homepage/UpcomingEvents";
@@ -24,6 +25,11 @@ const LandingPage = () => {
         >
           View Upcoming Events
         </Link>
+      </section>
+
+      {/* CLI */}
+      <section className="py-12 px-6 max-w-7xl mx-auto">
+        <CLI />
       </section>
 
       {/* GALLERY */}

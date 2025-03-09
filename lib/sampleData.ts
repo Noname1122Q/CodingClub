@@ -17,7 +17,8 @@ export const upcomingEvents = [
     contactPhone: "+91 9876543210",
     isRegistrationOpen: true,
     registrationLink: "https://bit.ly/ai-ml-workshop",
-    imageUrl: "https://example.com/ai-ml-workshop-banner.jpg",
+    imageUrl:
+      "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600",
     tags: [
       { title: "AI", icon: "brain-circuit" },
       { title: "Machine Learning", icon: "cpu" },
@@ -41,7 +42,8 @@ export const upcomingEvents = [
     contactPhone: "+91 9876543211",
     isRegistrationOpen: true,
     registrationLink: "https://bit.ly/web-dev-bootcamp",
-    imageUrl: "https://example.com/web-dev-bootcamp-banner.jpg",
+    imageUrl:
+      "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=600",
     tags: [
       { title: "Web Development", icon: "globe" },
       { title: "Next.js", icon: "layers" },
@@ -65,7 +67,8 @@ export const upcomingEvents = [
     contactPhone: "+91 9876543212",
     isRegistrationOpen: false,
     registrationLink: null,
-    imageUrl: "https://example.com/cybersecurity-seminar.jpg",
+    imageUrl:
+      "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600",
     tags: [
       { title: "Cybersecurity", icon: "shield" },
       { title: "Ethical Hacking", icon: "bug" },
@@ -93,7 +96,8 @@ export const previousEvents = [
     contactPhone: "+91 9876543213",
     isRegistrationOpen: false,
     registrationLink: null,
-    imageUrl: "https://example.com/bits-hackathon-2024.jpg",
+    imageUrl:
+      "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=600",
     tags: [
       { title: "Hackathon", icon: "activity" },
       { title: "Coding", icon: "code" },
@@ -117,7 +121,8 @@ export const previousEvents = [
     contactPhone: "+91 9876543214",
     isRegistrationOpen: false,
     registrationLink: null,
-    imageUrl: "https://example.com/blockchain-seminar.jpg",
+    imageUrl:
+      "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=600",
     tags: [
       { title: "Blockchain", icon: "database" },
       { title: "Cryptocurrency", icon: "dollar-sign" },
@@ -139,7 +144,8 @@ export const previousEvents = [
     contactPhone: "+91 9876543215",
     isRegistrationOpen: false,
     registrationLink: null,
-    imageUrl: "https://example.com/game-dev-workshop.jpg",
+    imageUrl:
+      "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600",
     tags: [
       { title: "Game Development", icon: "gamepad" },
       { title: "Unity", icon: "package" },
